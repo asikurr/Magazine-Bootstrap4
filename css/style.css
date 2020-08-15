@@ -1,0 +1,74 @@
+html {
+  scroll-behavior: smooth; }
+
+body {
+  margin-top: 75px; }
+
+.navbar {
+  box-shadow: 2px 2px 5px #3292a6;
+  opacity: .9;
+  background: #fff; }
+  .navbar .nav-item {
+    font-size: 1.4rem;
+    padding-right: 1.4rem; }
+
+.info-header {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px solid #ddd; }
+
+#showcase {
+  position: relative;
+  background: url(../images/mountains.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 600px; }
+  #showcase .section-overlay {
+    background: rgba(50, 146, 166, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%; }
+
+#authors img {
+  margin-top: -50px; }
+#authors .card {
+  transition: all .3s; }
+#authors .card:hover {
+  background: #3292a6;
+  color: #fff; }
+#authors .card:hover .fab {
+  color: #fff; }
+
+@media only screen and (max-width: 991px) {
+  .mb-respon-card {
+    margin-bottom: 3rem; } }
+@media only screen and (max-width: 768px) {
+  #showcase {
+    min-height: 500px; }
+    #showcase h1 {
+      font-size: 4rem; }
+
+  #authors h1 {
+    font-size: 1.5rem !important; }
+
+  .mb-respon {
+    margin-bottom: 1rem; }
+
+  .mb-respon-card:not(:last-child) {
+    margin-bottom: 4rem; }
+
+  .font-respon {
+    font-size: 1rem !important; } }
+@media only screen and (max-width: 400px) {
+  #showcase {
+    min-height: 500px;
+    margin-top: 3rem;
+    padding-top: 3rem; }
+    #showcase h1 {
+      font-size: 3rem; }
+
+  .font-respon {
+    font-size: 1rem !important; } }
